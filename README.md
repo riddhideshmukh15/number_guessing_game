@@ -1,80 +1,86 @@
 # 🎯 Number Guessing Game
 
-A simple Python console game where the computer randomly selects a number between **1 and 100**, and the player tries to guess it. After each guess, the game provides a hint indicating whether the guess is **too high** or **too low** until the correct number is guessed.
+A simple and interactive **Number Guessing Game** built using Python. The computer randomly selects a number between **1 and 100**, and the player tries to guess it.
 
-## 📌 Features
+## 🚀 Features
 
-* Random number generation between 1 and 100
-* User input for guessing the number
-* Hints after every incorrect guess
-* Counts the total number of attempts
-* Displays a congratulatory message when the correct number is guessed
+* 🎲 Random number generation
+* 🔢 Number range from 1 to 100
+* 💡 Hints when the guess is too high or too low
+* 🔢 Counts the number of attempts
+* 🏆 Score system starting from 100
+* 📉 10 points deducted for every wrong guess
+* 🔄 Option to play the game again
 
 ## 🛠️ Technologies Used
 
-* Python 3
-* `random` module
+* Python
+* Random module
+* Loops
+* Conditional statements
+* User input
 
 ## ▶️ How to Run
 
-1. Clone the repository:
+1. Make sure Python is installed.
+2. Clone this repository.
+3. Open the project folder in Command Prompt or VS Code.
+4. Run:
 
-   ```bash
-   git clone https://github.com/riddhideshmukh15/number_guessing_game.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd number_guessing_game
-   ```
-
-3. Run the program:
-
-   ```bash
-   python app.py
-   ```
-
-   *(Replace `app.py` with your Python file name if it is different.)*
-
-## 💻 Sample Output
-
-```text
-🎯 Welcome to the Number Guessing Game!
-I have chosen a number between 1 and 100.
-
-Enter your guess: 45
-Too low! Try Again!
-
-Enter your guess: 80
-Too high! Try Again.
-
-Enter your guess: 72
-Congratulations! You guessed the number!
-You guessed it in 3 attempt(s).
+```bash
+python number_guessing_game.py
 ```
 
-## 📚 Concepts Practiced
+## 🎮 How to Play
 
-* Variables
-* User Input
-* Data Types
-* Conditional Statements (`if`, `elif`, `else`)
-* Loops (`while`)
-* `break` Statement
-* Random Number Generation
-* String Formatting (f-strings)
+1. The computer chooses a random number between 1 and 100.
+2. Enter your guess.
+3. You will receive a hint:
 
-## 🚀 Future Improvements
+   * **Too Low** → Guess a higher number.
+   * **Too High** → Guess a lower number.
+4. Each incorrect guess reduces your score by **10 points**.
+5. Try to guess the number with the highest possible score.
+6. Choose whether you want to play again.
 
-* Add difficulty levels (Easy, Medium, Hard)
-* Limit the number of attempts
-* Play Again option
-* Track the best score
-* Input validation for invalid entries
+## 📌 Example
+
+```text
+Welcome to the Number Guessing Game!
+I have chosen a number between 1 and 100.
+
+Enter your guess: 40
+Too low! Try Again.
+
+Enter your guess: 70
+Too High! Try Again.
+
+Enter your guess: 55
+Congratulations! You guessed the number!
+You guessed it in 3 attempt(s).
+Your score is 80
+
+Do you want to play again? (yes/no): no
+Thanks for playing!
+```
+
+## 📚 What I Learned
+
+Through this project, I practiced:
+
+* Using Python's `random` module
+* `while` loops
+* `if`, `elif`, and `else`
+* Variables and arithmetic operations
+* Taking user input
+* Using `break`
+* Creating a score system
+* Building a replay feature
 
 ## 👩‍💻 Author
 
 **Riddhi Deshmukh**
 
-Learning Python by building beginner-friendly projects and sharing them on GitHub.
+---
+
+⭐ If you like this project, consider giving the repository a star!

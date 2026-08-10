@@ -62,7 +62,7 @@ Your score is 80
 
 Do you want to play again? (yes/no): no
 Thanks for playing!
-```
+
 
 ## 📚 What I Learned
 
@@ -81,6 +81,6 @@ Through this project, I practiced:
 
 **Riddhi Deshmukh**
 
----
+
 
 ⭐ If you like this project, consider giving the repository a star!
